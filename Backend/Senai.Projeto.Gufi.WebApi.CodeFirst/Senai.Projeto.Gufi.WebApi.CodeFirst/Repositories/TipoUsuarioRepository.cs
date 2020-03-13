@@ -14,8 +14,7 @@ namespace Senai.Projeto.Gufi.WebApi.CodeFirst.Repositories
         public void Atualizar(int id, TipoUsuario tipoUsuarioAtualizado)
         {
             TipoUsuario tipoUsuarioBuscado = ctx.TipoUsuario.Find(id);
-
-            //FAZER AQUI AS COISAS PARA ATUALIzAR
+            tipoUsuarioBuscado.TituloTipoUsuario = tipoUsuarioAtualizado.TituloTipoUsuario;
             ctx.SaveChanges();
         }
 
@@ -45,5 +44,3 @@ namespace Senai.Projeto.Gufi.WebApi.CodeFirst.Repositories
     }
 }
 
-    }
-}

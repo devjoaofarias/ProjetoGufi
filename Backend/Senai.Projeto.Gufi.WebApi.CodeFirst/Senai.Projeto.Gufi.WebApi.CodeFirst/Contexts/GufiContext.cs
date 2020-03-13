@@ -96,10 +96,6 @@ namespace Senai.Projeto.Gufi.WebApi.CodeFirst.Domains
             {
                 entity.HasKey(e => e.IdPresenca);
 
-                entity.Property(e => e.Situacao)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
-
                 entity.HasOne(d => d.IdEventoNavigation)
                     .WithMany(p => p.Presenca)
                     .HasForeignKey(d => d.IdEvento)

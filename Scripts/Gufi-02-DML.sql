@@ -29,7 +29,7 @@ VALUES (1, 1, 'Introdução ao C#', 'Conceitos sobre os pilares da programação ori
 INSERT INTO Evento(IdInstituicao, IdTipoEvento, NomeEvento, Descricao, DataEvento, AcessoLivro)
 VALUES (1, 3, 'Optimização de banco de dados', 'Aplicação de indices clusterizados e não clusterizados', '07/02/2020', 0), (1, 2, 'Ciclo de vida', 'Como utilizar o ciclo de vida com ReactJs', '07/02/2020', 1);
 
-INSERT INTO Presenca(IdUsuario, IdEvento, Situacao)
-VALUES (2, 2, 'Agendada'), (2, 3, 'Confirmada'), (3, 1, 'Não compareceu');
+INSERT INTO Presenca(IdUsuario, IdEvento)
+VALUES (2, 2), (2, 3), (3, 1);
 
 

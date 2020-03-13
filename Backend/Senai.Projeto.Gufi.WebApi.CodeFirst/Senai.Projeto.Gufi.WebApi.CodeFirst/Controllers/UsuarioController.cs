@@ -12,45 +12,46 @@ namespace Senai.Projeto.Gufi.WebApi.CodeFirst.Controllers
     [Produces("application/json")]
     [Route("api/[controller]")]
     [ApiController]
-    public class TipoEventoController : ControllerBase
-    {
-        private ITipoEventoRepository _tipoEventoRepository;
 
-        public TipoEventoController()
+    public class UsuarioController : ControllerBase
+    {
+        private IUsuarioRepository _usuarioRepository;
+
+        public UsuarioController()
         {
-            _tipoEventoRepository = new TipoEventoRepository();
+            _usuarioRepository = new UsuarioRepository();
         }
 
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(_tipoEventoRepository.Listar());
+            return Ok(_usuarioRepository.Listar());
         }
 
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
-            return StatusCode(200, _tipoEventoRepository.BuscarPorId(id));
+            return StatusCode(200, _usuarioRepository.BuscarPorId(id));
         }
 
         [HttpPost]
-        public IActionResult Post (TipoEvento novoTipoEvento)
+        public IActionResult Post(Usuario novoUsuario)
         {
-            _tipoEventoRepository.Cadastrar(novoTipoEvento);
+            _usuarioRepository.Cadastrar(novoUsuario);
 
             return StatusCode(201);
         }
 
         [HttpPut]
-        public IActionResult Put (int id, TipoEvento tipoEventoAtualizado)
+        public IActionResult Put(int id, Usuario usuarioAtualizado)
         {
-            TipoEvento tipoEventoBuscado =_tipoEventoRepository.BuscarPorId(id);
+            Usuario usuarioBuscado = _usuarioRepository.BuscarPorId(id);
 
-            if(tipoEventoBuscado != null)
+            if (usuarioBuscado != null)
             {
                 try
                 {
-                    _tipoEventoRepository.Atualizar(id, tipoEventoAtualizado);
+                    _usuarioRepository.Atualizar(id, usuarioAtualizado);
                     return StatusCode(200);
                 }
                 catch (Exception erro)
@@ -62,16 +63,17 @@ namespace Senai.Projeto.Gufi.WebApi.CodeFirst.Controllers
         }
 
         [HttpDelete]
-        public IActionResult Delete (int id)
+        public IActionResult Delete(int id)
         {
-            TipoEvento tipoEventoBuscado = _tipoEventoRepository.BuscarPorId(id);
+            Usuario usuarioBuscado = _usuarioRepository.BuscarPorId(id);
 
-            if(tipoEventoBuscado == null)
+            if (usuarioBuscado == null)
             {
                 return NotFound();
             }
-            _tipoEventoRepository.Deletar(id);
+            _usuarioRepository.Deletar(id);
             return StatusCode(200);
         }
     }
 }
+

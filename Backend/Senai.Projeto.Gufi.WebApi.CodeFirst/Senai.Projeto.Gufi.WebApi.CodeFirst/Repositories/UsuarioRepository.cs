@@ -53,6 +53,3 @@ namespace Senai.Projeto.Gufi.WebApi.CodeFirst.Repositories
         }
     }
 }
-
-    }
-}
