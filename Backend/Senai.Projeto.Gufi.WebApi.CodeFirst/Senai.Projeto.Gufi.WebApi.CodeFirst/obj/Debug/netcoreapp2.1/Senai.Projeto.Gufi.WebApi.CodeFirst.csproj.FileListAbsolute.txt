@@ -1,0 +1,14 @@
+C:\Users\24055965800\OneDrive\ProjetoGufi\Backend\Senai.Projeto.Gufi.WebApi.CodeFirst\Senai.Projeto.Gufi.WebApi.CodeFirst\bin\Debug\netcoreapp2.1\Senai.Projeto.Gufi.WebApi.CodeFirst.deps.json
+C:\Users\24055965800\OneDrive\ProjetoGufi\Backend\Senai.Projeto.Gufi.WebApi.CodeFirst\Senai.Projeto.Gufi.WebApi.CodeFirst\bin\Debug\netcoreapp2.1\Senai.Projeto.Gufi.WebApi.CodeFirst.runtimeconfig.json
+C:\Users\24055965800\OneDrive\ProjetoGufi\Backend\Senai.Projeto.Gufi.WebApi.CodeFirst\Senai.Projeto.Gufi.WebApi.CodeFirst\bin\Debug\netcoreapp2.1\Senai.Projeto.Gufi.WebApi.CodeFirst.runtimeconfig.dev.json
+C:\Users\24055965800\OneDrive\ProjetoGufi\Backend\Senai.Projeto.Gufi.WebApi.CodeFirst\Senai.Projeto.Gufi.WebApi.CodeFirst\bin\Debug\netcoreapp2.1\Senai.Projeto.Gufi.WebApi.CodeFirst.dll
+C:\Users\24055965800\OneDrive\ProjetoGufi\Backend\Senai.Projeto.Gufi.WebApi.CodeFirst\Senai.Projeto.Gufi.WebApi.CodeFirst\obj\Debug\netcoreapp2.1\Senai.Projeto.Gufi.WebApi.CodeFirst.csprojAssemblyReference.cache
+C:\Users\24055965800\OneDrive\ProjetoGufi\Backend\Senai.Projeto.Gufi.WebApi.CodeFirst\Senai.Projeto.Gufi.WebApi.CodeFirst\obj\Debug\netcoreapp2.1\Senai.Projeto.Gufi.WebApi.CodeFirst.csproj.CoreCompileInputs.cache
+C:\Users\24055965800\OneDrive\ProjetoGufi\Backend\Senai.Projeto.Gufi.WebApi.CodeFirst\Senai.Projeto.Gufi.WebApi.CodeFirst\obj\Debug\netcoreapp2.1\Senai.Projeto.Gufi.WebApi.CodeFirst.RazorAssemblyInfo.cache
+C:\Users\24055965800\OneDrive\ProjetoGufi\Backend\Senai.Projeto.Gufi.WebApi.CodeFirst\Senai.Projeto.Gufi.WebApi.CodeFirst\obj\Debug\netcoreapp2.1\Senai.Projeto.Gufi.WebApi.CodeFirst.RazorAssemblyInfo.cs
+C:\Users\24055965800\OneDrive\ProjetoGufi\Backend\Senai.Projeto.Gufi.WebApi.CodeFirst\Senai.Projeto.Gufi.WebApi.CodeFirst\obj\Debug\netcoreapp2.1\Senai.Projeto.Gufi.WebApi.CodeFirst.AssemblyInfoInputs.cache
+C:\Users\24055965800\OneDrive\ProjetoGufi\Backend\Senai.Projeto.Gufi.WebApi.CodeFirst\Senai.Projeto.Gufi.WebApi.CodeFirst\obj\Debug\netcoreapp2.1\Senai.Projeto.Gufi.WebApi.CodeFirst.AssemblyInfo.cs
+C:\Users\24055965800\OneDrive\ProjetoGufi\Backend\Senai.Projeto.Gufi.WebApi.CodeFirst\Senai.Projeto.Gufi.WebApi.CodeFirst\obj\Debug\netcoreapp2.1\Senai.Projeto.Gufi.WebApi.CodeFirst.RazorTargetAssemblyInfo.cache
+C:\Users\24055965800\OneDrive\ProjetoGufi\Backend\Senai.Projeto.Gufi.WebApi.CodeFirst\Senai.Projeto.Gufi.WebApi.CodeFirst\bin\Debug\netcoreapp2.1\Senai.Projeto.Gufi.WebApi.CodeFirst.pdb
+C:\Users\24055965800\OneDrive\ProjetoGufi\Backend\Senai.Projeto.Gufi.WebApi.CodeFirst\Senai.Projeto.Gufi.WebApi.CodeFirst\obj\Debug\netcoreapp2.1\Senai.Projeto.Gufi.WebApi.CodeFirst.dll
+C:\Users\24055965800\OneDrive\ProjetoGufi\Backend\Senai.Projeto.Gufi.WebApi.CodeFirst\Senai.Projeto.Gufi.WebApi.CodeFirst\obj\Debug\netcoreapp2.1\Senai.Projeto.Gufi.WebApi.CodeFirst.pdb
